@@ -4,16 +4,18 @@ const Section4 = () => {
   return (
     <div className="">
       <div className="w-full h-full  flex my-20">
-        <div className="w-[50%]  font-['fraunces'] ">
+        <div className="w-[50%]  font-['fraunces'] align-baseline">
           <p className="text-7xl ">
             <span className=" italic ">Get in</span>
             <span className="font-thin"> touch</span>
           </p>
-          <p className="text-xl font-['SF Pro Rounded'] my-2">
+          <p className=" text-xl font-['SF Pro Rounded'] my-2">
             We appreciate each customer and we are proud <br />
             that 60% of clients come back to work with us again.{" "}
           </p>
-          <p className="text-[#5739e7] mt-8 font-medium">+1 999 999 9999</p>
+          <p className="align-baseline text-[#5739e7] mt-8 font-medium">
+            +1 999 999 9999
+          </p>
           <p className="text-[#5739e7] mt-2 font-medium">info@roini.com</p>
         </div>
         <div className="w-[50%]">
